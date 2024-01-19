@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_RLE_BO_PROCESS_C</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>Generated Constants Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_ACTION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Actions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_ACTION_ATTRIBUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Action Parameter Attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_ASSOCIATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Associations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_ASSOCIATION_ATTRIBUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Association Parameter Attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_BO_KEY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>RLE - BO Procesos (log, etc)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_BO_NAME</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>RLE - BO Procesos (log, etc)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_DETERMINATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Determinations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_NODE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nodes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_NODE_ATTRIBUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Node Attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_NODE_CATEGORY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Node Categories</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_QUERY</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Queries</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SC_QUERY_ATTRIBUTE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Query Attributes</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

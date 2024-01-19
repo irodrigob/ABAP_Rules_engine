@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>ZIF_RLE_RULE</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>RLE - Definición regla</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>EVALUATE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Evalua la regla</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>EVALUATE</CMPNAME>
+     <SCONAME>IO_DECISION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Decision de la regla</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EVALUATE</CMPNAME>
+     <SCONAME>IO_VALUES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Contenedor de datos</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

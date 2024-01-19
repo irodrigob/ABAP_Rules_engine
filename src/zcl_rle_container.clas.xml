@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_RLE_CONTAINER</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>RLE - Container datos</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CLEAR_ALL</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Limpia las variables del contenedor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>DELETE_VARIABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Borra una variable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXIST_VARIABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve si una variable existe</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_VARIABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Recupera el valor de una variable</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>SET_VARIABLE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Grabar nueva variable</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>DELETE_VARIABLE</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la variable</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXIST_VARIABLE</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la variable</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXIST_VARIABLE</CMPNAME>
+     <SCONAME>RV_EXIST</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Existe</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VARIABLE</CMPNAME>
+     <SCONAME>EV_VALUE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valor</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_VARIABLE</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la variable</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_VARIABLE</CMPNAME>
+     <SCONAME>IV_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la variable</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>SET_VARIABLE</CMPNAME>
+     <SCONAME>IV_VALUE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valores</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

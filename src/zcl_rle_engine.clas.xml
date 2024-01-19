@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_RLE_ENGINE</CLSNAME>
+    <LANGU>S</LANGU>
+    <DESCRIPT>RLE - Motor de reglas</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_INITIAL_RULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>verifica que exista regla inicio</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_INSTANCE_RULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>verifica e instancia la regla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>END_LOG_RULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fin log de ejecución de la regla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>EXECUTE_RULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Ejecuta la regla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_COMPLETE_PROCESS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Devuelve el proceso completo</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_CHECK_RULES</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura y verificación de reglas</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>LOAD_PROCESS_CONFIGURATION</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Lectura de la configuración del proceso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PERSIST_LOG_RULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Persistencia del log del proceso</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>START_LOG_RULE</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Inicio log de ejecución de la regla</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>START_PROCESS</CMPNAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Inicio del proceso</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_APP</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Aplicación</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_LANGU</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Idioma</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>END_LOG_RULE</CMPNAME>
+     <SCONAME>IO_DECISION</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Decision de la regla</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>END_LOG_RULE</CMPNAME>
+     <SCONAME>IV_NEXT_RULE</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Siguiente regla determinada</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_RULE</CMPNAME>
+     <SCONAME>IO_VALUES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valores para evaluar el proceso</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>EXECUTE_RULE</CMPNAME>
+     <SCONAME>IV_RULE_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la regla</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_COMPLETE_PROCESS</CMPNAME>
+     <SCONAME>RT_PROCESS</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Proceso completo</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PERSIST_LOG_RULE</CMPNAME>
+     <SCONAME>IV_END</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Fin de grabacion del log</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_LOG_RULE</CMPNAME>
+     <SCONAME>IV_RULE_NAME</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Nombre de la regla</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>START_PROCESS</CMPNAME>
+     <SCONAME>IO_VALUES</SCONAME>
+     <LANGU>S</LANGU>
+     <DESCRIPT>Valores para evaluar el proceso</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
